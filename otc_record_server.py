@@ -104,7 +104,7 @@ class ServerMain:
     def server_run(self):
 
 
-        serverPort = 6024
+        serverPort = 12000
         serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         serverSocket.bind( ("", serverPort) )
         serverSocket.listen(5)
