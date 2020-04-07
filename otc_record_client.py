@@ -6,8 +6,8 @@ import sys
 import struct
 
 clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serverName = '192.168.101.210'
-serverPort = 6024
+serverName = 'localhost'
+serverPort = 12000
 
 
 class Page(tk.Frame):
