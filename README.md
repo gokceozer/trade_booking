@@ -1,1 +1,1 @@
-# trade_booking
+This app is used to book trades
